@@ -7,17 +7,26 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Cyclonic Cartography Index</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+  <style>
+    body{
+      background-image: url("https://wallpapers.com/images/featured/tornado-v136jwmu3l5uwe4r.jpg");
+      background-size: 100% 100%;
+    }
+    p{
+      font-size:16px;
+    }
+  </style>  
+
 </head>
 
 <body>
-
   <div class="container">
     <div class="row">
       <div class="col-md-10 jumbotron text-center">
         <h1>Cyclonic Cartography</h1>
         <h3>Mapping Significant Tornadoes</h3>
         
-       
       </div>
     </div>
 <h5>An Exploration of Tornado Data from 2000-2023</h5>
@@ -26,19 +35,100 @@
 <p>This is an exploratory project to see if recent data supports the idea of tornado alley shifting; it is not intended for decision<br> making purposes of any kind.</p>
 <br>
 <p>Is Tornado Alley shifting? Use the links below to explore our data visualizations and maps!</p>
-<ui>
-    <li> <a href="charts2">Tornado Data charts</a> </li>
-    <li> <a href="polylineMap">Tornado Paths</a> </li>
-    <li> <a href="markerMap">Tornado Markers</a> </li>
-    <li> <a href="heatindex">Tornado Heat Map</a> </li>
-</ui>
-<br>
-<img src ="images/960px-F5_tornado_Elie_Manitoba_2007.jpg">
-<br>
+<ul>
+  <li> <a href="charts2.html">
+    <button class="button-19 charts-button" role="button">tornado charts</button>
+    <style>
+    /* CSS */
+    .button-19 {
+      appearance: button;
+      /*background-color: #1899D6;*/
+      border: solid transparent;
+      border-radius: 16px;
+      border-width: 0 0 4px;
+      box-sizing: border-box;
+      color: #FFFFFF;
+      cursor: pointer;
+      display: inline-block;
+      font-family: din-round,sans-serif;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: .8px;
+      line-height: 20px;
+      margin: 1.2em 1em;
+      outline: none;
+      overflow: visible;
+      padding: 13px 16px;
+      text-align: center;
+      text-transform: uppercase;
+      touch-action: manipulation;
+      transform: translateZ(0);
+      transition: filter .2s;
+      user-select: none;
+      -webkit-user-select: none;
+      vertical-align: middle;
+      white-space: nowrap;
+      width: 50%;
+    }
+    
+    .button-19:after {
+      background-clip: padding-box;
+      /*background-color: #1CB0F6;*/
+      border: solid transparent;
+      border-radius: 16px;
+      border-width: 0 0 4px;
+      bottom: -4px;
+      content: "";
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      z-index: -1;
+    }
+    
+    .button-19:main,
+    .button-19:focus {
+      user-select: auto;
+    }
+    
+    .button-19:hover:not(:disabled) {
+      filter: brightness(1.1);
+      -webkit-filter: brightness(1.1);
+    }
+    
+    .button-19:disabled {
+      cursor: auto;
+    }
+    
+    .button-19:active {
+      border-width: 4px 0 0;
+      background: none;
+    }
+  </style><style>.charts-button:after{background-color:#dbc1ac}
+                /*.charts-button{background-color:}*/</style>
+                </a> </li>    
 
+    <li> <a href="polylineMap.html"><button class="button-19 polyline-button">Tornado Paths</button>
+      <style>.polyline-button:after{background-color:#967259}
+        /*.polyline-button{background-color:}*/</style></a> </li>
 
+    <li> <a href="markerMap.html"><button class="button-19 marker-button">Tornado Markers</button>
+      <style>.marker-button:after{background-color:#634832}
+        /*.marker-button{background-color:}*/</style></a> </li>
 
-By <a href="https://en.wikipedia.org/wiki/User:Justin1569" class="extiw" title="wikipedia:User:Justin1569">Justin1569</a> at <a href="https://en.wikipedia.org/wiki/" class="extiw" title="wikipedia:">English Wikipedia</a>, <a href="http://creativecommons.org/licenses/by-sa/3.0/" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=5943918">Link</a>
+    <li> <a href="heatindex.html"><button class="button-19 heat-button">Tornado Heat Map</button>
+      <style>.heat-button:after{background-color:#38220f}
+        /*.heat-button{background-color:}*/</style></a> </li>
+
+    <li> <a href="https://public.tableau.com/app/profile/barb.rupps/viz/TornadoesPerState/SignificantTornadoesDashboard?publish=yes"><button class="button-19 tableau-button">tableau dashboard</button>
+      <style>.tableau-button:after{background-color:#ece0d1}
+        /*.tableau-button{background-color:}*/</style></a> </li>
+
+    <li> <a href="https://github.com/brupps/Cyclonic_Cartography?tab=readme-ov-file"><button class="button-19 github-button">the code</button>
+      <style>.github-button:after{background-color:#000000}
+        /*.github-button{background-color:}*/</style></a> </li>
+
+</ul>
 </body>
 
 </html>
