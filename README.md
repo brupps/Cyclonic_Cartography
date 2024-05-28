@@ -29,7 +29,7 @@ One thing we notice from the data is that the biggest concentration of more sign
 ***Since each team member created their visualizations independently we all took different approaches with our methodologies; our independent workflows within the code itself is outlined more clearly within the <a href="https://github.com/brupps/Cyclonic_Cartography/tree/main/static">js files</a>***
 
 5. Creating the final index.html page
-   	- **FIX**
+   	- After finishing and deploying all the visualizations we created one new, clean dashboard/ landing page with buttons (with embedded links) that lead to each individual visualization, as well as links to the tableau dashboard and the github page itself
 
 
 ## Additional library, not used in class
@@ -58,7 +58,7 @@ Contains all the javascript files the team used to create their visualizations a
 ### HTML files
 
 - **index.html**
-**FIX** [Landing page](https://brupps.github.io/project_3/)
+**FIX** [Landing page](https://brupps.github.io/Cyclonic_Cartography/)
 
 - **charts2.html**
 ![a screenshot of the chartsJS visualization](https://github.com/brupps/Cyclonic_Cartography/blob/main/images/charts2image.PNG)
