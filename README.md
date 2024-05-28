@@ -58,7 +58,7 @@ Contains all the javascript files the team used to create their visualizations a
 ### HTML files
 
 - **index.html**
-**FIX** [Landing page](https://brupps.github.io/Cyclonic_Cartography/)
+[Landing page](https://brupps.github.io/Cyclonic_Cartography/)
 
 - **charts2.html**
 ![a screenshot of the chartsJS visualization](https://github.com/brupps/Cyclonic_Cartography/blob/main/images/charts2image.PNG)
